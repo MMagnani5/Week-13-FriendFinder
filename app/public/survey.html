@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+
   <title>Friend Finder</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery.js"></script>
@@ -27,31 +29,41 @@
     <hr>
 
     <h3><strong>Question 1</strong></h3>
-    <h4>You enjoy making New Friends</h4>
-    <select data-placeholder="" class="chosen-select" id="q1" style="display: none;">
+    <h4>Do You enjoy making New Friends</h4>
+    <select data-placeholder="" class="chosen-select" id="q1">
       <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
-        </select><div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q1_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q1_chosen"><a class="chosen-single chosen-default">
+        <span>Select an Option</span><div><b></b></div></a>
+        <div class="chosen-drop">
+        <div class="chosen-search"><input type="text" autocomplete="off">
+            </div>
+            <ul class="chosen-results"></ul>
+        </div>
+    </div>
 
     <h3><strong>Question 2</strong></h3>
     <h4>Generally speaking, How important are your political beliefs to you?</h4>
-    <select data-placeholder="" class="chosen-select" id="q2" style="display: none;">
+    <select data-placeholder="" class="chosen-select" id="q2">
       <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
-        </select><div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q2_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q2_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop">
+        <div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
 
     <h3><strong>Question 3</strong></h3>
     <h4>You enjoy spending your free time outdoors.</h4>
-    <select data-placeholder="" class="chosen-select" id="q3" style="display: none;">
+    <select data-placeholder="" class="chosen-select" id="q3">
       <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -63,54 +75,59 @@
 
     <h3><strong>Question 4</strong></h3>
     <h4>You need coffee to survive?</h4>
-    <select data-placeholder="" class="chosen-select" id="q4" style="display: none;">
+    <select data-placeholder="" class="chosen-select" id="q4">
       <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
-        </select><div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q4_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q4_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
 
     <h3><strong>Question 5</strong></h3>
     <h4>You get along with most people</h4>
-    <select data-placeholder="" class="chosen-select" id="q5" style="display: none;">
+    <select data-placeholder="" class="chosen-select" id="q5">
       <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
-        </select><div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q5_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q5_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
 
     <h3><strong>Question 6</strong></h3>
     <h4>You enjoy Solving difficult problems</h4>
-    <select data-placeholder="" class="chosen-select" id="q6" style="display: none;">
+    <select data-placeholder="" class="chosen-select" id="q6">
       <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
-        </select><div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q6_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q6_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
 
     <h3><strong>Question 7</strong></h3>
     <h4>Work is the most important thing in your life</h4>
-    <select data-placeholder="" class="chosen-select" id="q7" style="display: none;">
+    <select data-placeholder="" class="chosen-select" id="q7">
       <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
-        </select><div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q7_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q7_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a>
+        <div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
     <h3><strong>Question 8</strong></h3>
     <h4>Family is the most important thing in your life</h4>
-    <select data-placeholder="" class="chosen-select" id="q8" style="display: none;">
+    <select data-placeholder="" class="chosen-select" id="q8">
       <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -121,7 +138,7 @@
 
     <h3><strong>Question 9</strong></h3>
     <h4>You always keep other people's secrets.</h4>
-    <select data-placeholder="" class="chosen-select" id="q9" style="display: none;">
+    <select data-placeholder="" class="chosen-select" id="q9">
       <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -132,7 +149,7 @@
 
     <h3><strong>Question 10</strong></h3>
     <h4>None of your close friends has ever upset yo.</h4>
-    <select data-placeholder="" class="chosen-select" id="q10" style="display: none;">
+    <select data-placeholder="" class="chosen-select" id="q10">
       <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
